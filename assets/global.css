@@ -610,6 +610,8 @@ fieldset {
   transition: .25s ease-in-out;
   padding-block: 0.8rem;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 button:disabled {

@@ -6,6 +6,8 @@
     transition: .25s ease-in-out;
     padding-block: get-size('300');
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 button:disabled {
