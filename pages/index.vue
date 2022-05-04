@@ -1,5 +1,7 @@
 <template>
-  <modal />
+  <div class="[ page-container ] [ bg-very-dark-blue box-flex ]">
+    <modal/>
+  </div>
 </template>
 
 <script>

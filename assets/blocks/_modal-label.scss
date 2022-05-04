@@ -1,0 +1,13 @@
+.modal label {
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+.modal label:hover:not(input:checked + label) {
+    background-color: get-color('medium-grey');
+    color: get-color('white');
+}
+
+input:checked + label {
+    background-color: get-color('orange');
+    color:get-color('white')
+}

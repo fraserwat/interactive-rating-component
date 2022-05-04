@@ -1,0 +1,32 @@
+$gorko-colors: (
+  'orange': #FC7614,
+  'white': #FFFFFF,
+  'dark-blue': #262E38,
+  'very-dark-blue': #131518,
+  'light-grey': #969FAD,
+  'medium-grey': #7C8798,
+  'black-gradient-start': #232A34,
+  'black-gradient-end': #181E27,
+);
+
+.bg-orange {
+    background-color: get-color('orange');
+}
+.bg-dark-blue {
+    background-color: get-color('dark-blue');
+}
+.bg-very-dark-blue {
+    background-color: get-color('very-dark-blue');
+}
+.bg-black-gradient {
+    background: linear-gradient(to bottom, get-color('black-gradient-start'), get-color('black-gradient-end'));
+}
+.font-white {
+    color: get-color('white');
+}
+.font-orange {
+    color: get-color('orange');
+}
+.font-light-grey {
+    color: get-color('light-grey');
+}

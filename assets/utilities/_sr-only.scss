@@ -1,0 +1,11 @@
+.sr-only {
+    opacity: 0.1;
+    position: absolute;
+    font-size: .1px;
+}
+@mixin sr-only() {
+    opacity: 0.1;
+    position: absolute;
+    height: .1px;
+    width: .1px;
+}

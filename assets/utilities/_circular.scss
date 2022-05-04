@@ -1,0 +1,8 @@
+.circular {
+    width: get-size('900');
+    height: get-size('900');
+    background-color: get-color('dark-blue');
+    color: get-color('medium-grey');
+    border-radius: 50%;
+    text-align: center;
+}
