@@ -37,9 +37,9 @@ export default {
   build: {},
 
   generate: {
-    dir: 'my-site'
+    dir: 'dist'
   },
-  
+
   googleFonts: {
     families: {
       // a simple name
