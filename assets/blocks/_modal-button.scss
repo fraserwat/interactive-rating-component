@@ -14,7 +14,8 @@ button:disabled {
     border: none;
     cursor: default;
 }
-button:not(:disabled):hover {
+.modal button:not(:disabled):hover,
+.modal button:focus {
     color: get-color('orange');
     background-color: get-color('white');
 }

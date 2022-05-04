@@ -2,7 +2,11 @@
     cursor: pointer;
     transition: .25s ease-in-out;
 }
-.modal label:hover:not(input:checked + label) {
+input:focus {
+    outline: none;
+}
+.modal label:hover:not(input:checked + label),
+input:focus + label {
     background-color: get-color('medium-grey');
     color: get-color('white');
 }

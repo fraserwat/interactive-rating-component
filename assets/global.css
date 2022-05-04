@@ -619,7 +619,8 @@ button:disabled {
   cursor: default;
 }
 
-button:not(:disabled):hover {
+.modal button:not(:disabled):hover,
+.modal button:focus {
   color: #FC7614;
   background-color: #FFFFFF;
 }
@@ -637,7 +638,12 @@ button:not(:disabled):hover {
   transition: .25s ease-in-out;
 }
 
-.modal label:hover:not(input:checked + label) {
+input:focus {
+  outline: none;
+}
+
+.modal label:hover:not(input:checked + label),
+input:focus + label {
   background-color: #7C8798;
   color: #FFFFFF;
 }
