@@ -1,7 +1,7 @@
 <template>
-  <div class="[ page-container ] [ bg-very-dark-blue box-flex ]">
+  <main class="[ page-container ] [ bg-very-dark-blue box-flex ]">
     <modal/>
-  </div>
+  </main>
 </template>
 
 <script>

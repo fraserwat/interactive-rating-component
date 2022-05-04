@@ -8,7 +8,7 @@
       </div>
       <h2 class="font-white">How did we do?</h2>
       <p class="font-light-grey">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      <form action="" class="flow">
+      <form class="flow">
         <fieldset class="flex-row space-between">
           <input type="radio" name="rating" id="1" @change="updateRating">
           <label for="1" class="[ circular flex-row flex-center ]">1</label>
