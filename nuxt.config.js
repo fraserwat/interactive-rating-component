@@ -36,6 +36,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
+  generate: {
+    dir: 'my-site'
+  },
+  
   googleFonts: {
     families: {
       // a simple name
